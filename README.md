@@ -8,7 +8,7 @@ to install and run Cucumber!
 
 There is a single feature file with one scenario. The scenario has three steps, two of them pending. See if you can make them all pass!
 
-## Get the code
+## Get the code test
 
 Git:
 
