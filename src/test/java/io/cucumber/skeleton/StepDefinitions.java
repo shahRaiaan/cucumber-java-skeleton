@@ -5,12 +5,15 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefinitions {
-    @Given("I have {int} cukes in my belly")
+   
+	
+	
+	@Given("I have {int} cukes in my belly")
     public void I_have_cukes_in_my_belly(int cukes) {
         Belly belly = new Belly();
         belly.eat(cukes);
         System.out.println("This is test output");
-        
+        System.out.println(System.getProperty("browser"));
         
     }
     
